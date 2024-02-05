@@ -16,7 +16,7 @@ final class ViewController: UIViewController {
     
     @IBOutlet var redLabel: UILabel!
     @IBOutlet var greenLabel: UILabel!
-    @IBOutlet var blueLabel: UIStackView!
+    @IBOutlet var blueLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +36,7 @@ final class ViewController: UIViewController {
         
         redLabel.text = String(format: "%.2f", redSlider.value)
         greenLabel.text = String(format: "%.2f", greenSlider.value)
-//        blueLabel.text = String(format: "%.2f", blueSlider.value)
+        blueLabel.text = String(format: "%.2f", blueSlider.value)
         
         redSlider.minimumTrackTintColor = UIColor(red: red, green: 0, blue: 0, alpha: 1)
         greenSlider.minimumTrackTintColor = UIColor(red: 0, green: green, blue: 0, alpha: 1)
