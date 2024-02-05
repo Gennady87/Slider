@@ -23,7 +23,7 @@ final class ViewController: UIViewController {
         updateColorView()
     }
 
-    @IBAction func sliderValueChanged(_ sender: UISlider) {
+    @IBAction func sliderValueChanged(_ : UISlider) {
         updateColorView()
     }
     
